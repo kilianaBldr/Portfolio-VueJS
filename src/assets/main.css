@@ -7,6 +7,9 @@
   font-weight: normal;
 }
 
+body {
+  background-color: rgba(170, 87, 95, 0.852);
+}
 a{
   text-decoration: none;
 }
