@@ -32,7 +32,6 @@ header {
 
 .logo {
     width: 70px;
-    
     display: flex;
     margin: 1rem auto 1rem;
 }
@@ -57,15 +56,6 @@ a {
 }
 
 
-
-nav a.router-link-exact-active {
-    color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-    background-color: transparent;
-}
-
 nav a {
     display: inline-block;
     padding: 0 1rem;
@@ -74,5 +64,11 @@ nav a {
 
 nav a:first-of-type {
     border: 0;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(288, 56%, 2%, 0.155);
+    border-bottom: 1px solid black;
+  }
 }
 </style>
