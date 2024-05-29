@@ -32,7 +32,7 @@ section {
     font-family: "Aclonica", sans-serif;
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .texte {

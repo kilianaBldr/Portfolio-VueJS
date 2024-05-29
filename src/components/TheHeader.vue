@@ -1,6 +1,6 @@
 <template>
     <header>
-        <a href=""><img alt="Vue logo" class="logo" src=""  /></a>
+        <a href="#presentation"><img alt="Portfolio Logo" class="logo" src="../assets/img/logo.png"  /></a>
 
         <div class="wrapper">
             <nav>
@@ -22,8 +22,11 @@
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(88, 52, 68, 0.596);
-    position: fixed;
+    position: sticky;
     width: 100%;
     left: 0;
     line-height: 1.5;
@@ -31,9 +34,9 @@ header {
 }
 
 .logo {
-    width: 70px;
-    display: flex;
-    margin: auto ;
+    width: 60px;
+    margin-top: 10px;
+
 }
 
 nav {
