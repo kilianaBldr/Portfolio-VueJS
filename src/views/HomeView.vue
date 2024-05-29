@@ -2,6 +2,7 @@
 
 import TheHeader from '@/components/TheHeader.vue'
 import AboutMe from '@/components/AboutMe.vue'
+import TheModal from '@/components/TheModal.vue'
 import TheFooter from '@/components/TheFooter.vue'
 
 </script>
@@ -9,5 +10,6 @@ import TheFooter from '@/components/TheFooter.vue'
 <template>
 <TheHeader />
 <AboutMe />
+<TheModal />
 <TheFooter />
 </template>
