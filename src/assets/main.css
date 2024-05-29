@@ -11,12 +11,7 @@ a{
   text-decoration: none;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(288, 56%, 2%, 0.155);
-    border-bottom: 1px solid black;
-  }
-}
+
 
 @media (min-width: 1024px) {
   body {
