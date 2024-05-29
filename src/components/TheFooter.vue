@@ -22,6 +22,7 @@ footer {
 .linkFooter {
   height: 40px;
   width: 40px;
+  padding: 2px;
 }
 
 .linkFooter:hover {
