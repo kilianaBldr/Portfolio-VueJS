@@ -22,11 +22,11 @@ footer {
 .linkFooter {
   height: 40px;
   width: 40px;
-  margin: 2px;
+  padding: 2px;
 }
 
 .linkFooter:hover {
   cursor: pointer;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 </style>
