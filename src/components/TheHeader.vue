@@ -33,7 +33,7 @@ header {
 .logo {
     width: 70px;
     display: flex;
-    margin: 1rem auto 1rem;
+    margin: auto ;
 }
 
 nav {
