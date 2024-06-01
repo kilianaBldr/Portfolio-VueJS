@@ -74,9 +74,11 @@ export default {
     margin-top: 30px;
     padding: 10px;
 }
+
 .container:hover {
     box-shadow: 15px 10px 11px 0px #333;
 }
+
 #projets {
     box-sizing: border-box;
     border-radius: 5% 5% 5% 5%;
@@ -86,10 +88,12 @@ export default {
 
 
 }
+
 .elementProjet {
     display: flex;
     color: black;
 }
+
 img {
     border: 1px solid black;
     height: 315px;
@@ -113,9 +117,9 @@ h1 {
     color: black;
     margin-top: 80px;
 }
+
 h2 {
     font-size: 20px;
     text-align: center;
 }
-
 </style>

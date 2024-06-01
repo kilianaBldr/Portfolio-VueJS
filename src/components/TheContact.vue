@@ -34,7 +34,7 @@ export default {
         return {
             nom: '',
             prenom: '',
-            object: '',
+            object: '', // Assurez-vous que ce nom correspond à celui utilisé dans le template
             message: '',
             errors: {}
         }
@@ -61,17 +61,22 @@ export default {
         sendEmail() {
             if (this.validateForm()) {
                 const templateParams = {
-                    name: 'Kiliana Blondron',
+                    to_name: 'Kiliana Blondron',
                     from_nom: this.nom,
                     from_prenom: this.prenom,
                     object: this.object,
                     message: this.message,
                 }
                 emailjs
-                    .sendForm('service_k9gpdqk', 'template_asm0oxv', templateParams, this.$refs.form, {
-                        publicKey: 'eLq5D_TLnmsEAp1jA',
+                    .sendForm('service_k9gpdqk', 'template_biy5fxm', templateParams, this.$refs.form, {
+                        from_nom: '',
+                        from_prenom: '',
+                        object: '',
+                        message: '',
                     }).then(() => {
                         console.log('Envoyer avec Success !');
+                        //reset form 
+                        form.reset();
                     },
                         (error) => {
                             console.log('Erreur !!');
@@ -83,7 +88,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 * {
     box-sizing: border-box;
 }

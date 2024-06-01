@@ -78,7 +78,8 @@ h1 {
 h2 {
     font-size: 17px;
 }
+
 a:hover {
-  border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 }
 </style>
