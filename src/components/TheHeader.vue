@@ -1,6 +1,6 @@
 <template>
     <header>
-        <a href="#presentation"><img alt="Portfolio Logo" class="logo" src="../assets/img/logo.png"  /></a>
+        <a href="#presentation"><img alt="Portfolio Logo noir et blanc " class="logo" src="../assets/img/logo.png" /></a>
 
         <div class="wrapper">
             <nav>
@@ -68,10 +68,11 @@ nav a {
 nav a:first-of-type {
     border: 0;
 }
+
 @media (hover: hover) {
-  a:hover {
-    background-color: hsla(288, 56%, 2%, 0.155);
-    border-bottom: 1px solid black;
-  }
+    a:hover {
+        background-color: hsla(288, 56%, 2%, 0.155);
+        border-bottom: 1px solid black;
+    }
 }
 </style>

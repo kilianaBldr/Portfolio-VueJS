@@ -9,9 +9,9 @@ import TheFooter from '@/components/TheFooter.vue'
 </script>
 
 <template>
-<TheHeader />
-<AboutMe />
-<TheModal />
-<TheContact />
-<TheFooter />
+    <TheHeader />
+    <AboutMe />
+    <TheModal />
+    <TheContact />
+    <TheFooter />
 </template>
